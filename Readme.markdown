@@ -70,3 +70,7 @@ Ok, that isn't so hard anyway though. AirDrop and Reading List are pretty smart 
 ```
 
 Or maybe you would like to do HTML text to Mail and plain text and a link to Twitter. You get the idea :)
+
+## Thanks
+
+Special thanks to Drew Wilson for letting me release this as I work on his upcomming app [Filtron](https://filtron.co).
