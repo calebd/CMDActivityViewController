@@ -4,7 +4,7 @@ Nobody likes `UIActivityViewController`. I don't like how hard it is to customiz
 
 Let's say you want to share text and a link to twitter, but only send the link to the pasteboard. Easy.
 
-```
+```objc
 #pragma mark - Actions
 
 - (void)share {
@@ -34,7 +34,7 @@ Let's say you want to share text and a link to twitter, but only send the link t
 
 Ok, that isn't so hard anyway though. AirDrop and Reading List are pretty smart and will take just the URL. What about sharing an image, link, for different activities? No problem.
 
-```
+```objc
 #pragma mark - Actions
 
 - (void)share {
@@ -42,6 +42,8 @@ Ok, that isn't so hard anyway though. AirDrop and Reading List are pretty smart 
     controller.delegate = self;
     [self presentViewController:controller animated:YES completion:nil];
 }
+
+#pragma mark - CMDActivityViewControllerDelegate
 
 - (NSArray *)activityViewControllerPlaceholderItems:(CMDActivityViewController *)controller {
     return @[ @"", [NSURL URLWithString:@"http://apple.com"], [UIImage new] ];
