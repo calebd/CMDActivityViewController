@@ -75,4 +75,4 @@ Or maybe you would like to do HTML text to Mail and plain text and a link to Twi
 
 ## Thanks
 
-Special thanks to Drew Wilson for letting me release this as I work on his upcomming app [Filtron](https://filtron.co).
+Special thanks to Drew Wilson for allowing me to release this as I work on his upcomming app [Filtron](https://filtron.co).
